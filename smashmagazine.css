@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  min-height: 100px;
+  background-color: #D33A2C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 12px;
+}
+
+.menu:hover, .more {
+  background-color: #A82E23;
+}
+
+.menu2:hover {
+  background: none ;
+}
+
+.search {
+  width: 100%;
+}
+
+.search input {
+  border: none;
+  border-radius: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  width: 100%;
+}gi
+
+@media only screen and (max-width: 1245px) {
+  .member {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .workshop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 905px) {
+  .book {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .guides {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .article {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .header {
+    justify-content: space-between;
+  }
