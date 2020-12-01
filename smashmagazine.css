@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  font-family: 'ABeeZee', sans-serif;
 }
 
 .header {
@@ -17,7 +18,7 @@ body {
 }
 
 .menu {
-  font-size: 28px;
+  font-size: 22px;
   font-weight: bold;
   color: white;
   padding: 10px 15px;
@@ -42,7 +43,84 @@ body {
   padding: 15px 30px;
   font-size: 20px;
   width: 100%;
-}gi
+}
+
+.ctn1 {
+  border: 1px solid black;
+  height: 600px;
+  display: flex;
+  margin: 50px auto;
+  justify-content: space-around;
+}
+
+.chap-sec {
+  border: 1px solid black;
+  width: 60%;
+}
+
+.sec1 {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.img1 {
+  display: flex;
+  width: 30%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.bruno {
+  width: 160px;
+  height: 160px;
+  border: 5px solid red;
+  border-radius: 30px;
+  /* margin-left: 45px;
+  margin-top: 30%; */
+}
+
+.write1 {
+  width: 60%;
+  border: 1px solid black;
+  position: relative;
+}
+
+.uri {
+  color: red;
+  font-weight: bold;
+}
+
+.wrote {
+  position: absolute;
+  color: rgb(184, 183, 180);
+  top: 0%;
+}
+
+.weawing {
+  position: absolute;
+  font-size: 45px;
+  font-weight: bold;
+  top: 10%;
+}
+
+.nov30 {
+  position: absolute;
+  font-size: 18px;
+  bottom: 0%;
+}
+
+.usab {
+  color: rgb(95, 94, 94);
+  font-weight: bold;
+}
+
+.ong-sec {
+  border: 1px solid black;
+  width: 30%;
+}
 
 @media only screen and (max-width: 1245px) {
   .member {
