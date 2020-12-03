@@ -53,15 +53,24 @@ body {
 }
 
 .ctn1 {
-  border: 1px solid black;
   height: 1000px;
   display: flex;
   margin: 50px auto;
   justify-content: space-around;
+  position: relative;
+}
+
+.see-all {
+  position: absolute;
+  bottom: 5%;
+  color: rebeccapurple;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 5px solid red;
+  text-align: center;
 }
 
 .chap-sec {
-  border: 1px solid black;
   width: 60%;
 }
 
@@ -182,7 +191,6 @@ body {
 }
 
 .ong-sec {
-  border: 1px solid black;
   width: 30%;
 }
 
@@ -255,9 +263,188 @@ button:hover {
   padding-bottom: 50px;
 }
 
-.joker4 a {
+.wr4 a {
   color: grey;
   font-size: 13px;
+}
+
+.section {
+  background-color: #f1f7ff
+}
+
+.ctn2 {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.daniel {
+  width: 20%;
+  margin: 50px 10px;
+  padding: 0 20px;
+}
+
+.daniel:hover {
+  background-color: white;
+  /* padding: 0 20px; */
+  
+}
+
+
+.strelka {
+  font-size: 40px;
+  color: red;
+}
+
+.daniel3 {
+  width: 50%;
+  position: relative;
+  height: 480px;
+  background-color: #dbe2df;
+  border-radius: 15px;
+  margin-top: 130px;
+}
+
+.potato2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.potato2 img {
+  position: absolute;
+  top: -130px;
+  width: 250px;
+  height: 250px;
+}
+
+.wra {
+  position: absolute;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  top: 160px;
+}
+
+.wra1 {
+  position: absolute;
+  font-size: 21px;
+  text-align: center;
+  top: 230px;
+}
+
+.btn1 {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #19A972;
+  border-radius: 12px;
+  border: none;
+  width: 280px;
+  height: 70px;
+  text-align: center;
+  top: 350px;
+}
+
+.already {
+  font-size: 15px;
+  position: absolute;
+  top: 440px;
+}
+
+.days {
+  font-size: 12px;
+}
+
+.reac {
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.by {
+  font-weight: bold;
+  color: grey;
+  text-decoration: underline;
+}
+
+.wrk {
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.right {
+  size: 40px;
+}
+
+.see-all2 {
+  position: absolute;
+  top: 99%;
+  color: rebeccapurple;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 5px solid red;
+  text-align: center;
+}
+
+.blue {
+  position: relative;
+  text-align: center;
+  height: 950px;
+  margin-top: 90px;
+  background-image: linear-gradient( #1b71bb, #3b7fbb);
+}
+
+.june {
+  color: white;
+  padding-top: 60px;
+  text-shadow: 1px 2px 2px #383636;
+}
+
+.wr-meet {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.meet {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  text-decoration: underline #4399d9;
+  text-shadow: 1px 2px 2px #383636;
+}
+
+.newbook {
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: underline #4399d9;
+  text-shadow: 1px 2px 2px #383636;
+}
+
+.jump {
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4399d9;
+  border-radius: 12px;
+  border: none;
+  margin-top: 20px;
+}
+
+.jump:hover {
+  color: rgb(197, 76, 76);
+}
+
+.bird-blue1 {
+  width: 750px;
+  position: absolute;
+  top: 500px;
+  left: 20%;
 }
 
 @media only screen and (max-width: 1245px) {
